@@ -1,0 +1,88 @@
+<style>
+ {
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: #313131;
+	margin: auto;
+	width: 80%;
+	line-height: 160%;
+	background-color: #FAF8F7;
+}
+	.menu{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 30px;
+		margin-bottom: 90px;
+	}
+	.menu-rede{
+		margin-left: 16px;
+	}
+	.projetos{
+		display: flex;
+		margin-bottom: 90px;
+		justify-content: space-between;
+	}
+	.proj{		
+		width: 45%;
+	}
+	.proj-img{
+		width: 100%;
+		height: 40vh;		
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.proj-img:hover{
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.proj1{
+		background-image: url(img/proj1.png);
+	}
+	.proj1:hover{
+		background-image: url(img/proj1-hover.png);
+	}
+	.proj2{
+		background-image: url(img/proj2.png);
+	}
+	.proj2:hover{
+		background-image: url(img/proj2-hover.png);
+	}
+	.proj3{
+		background-image: url(img/proj3.png);
+	}
+	.proj3:hover{
+		background-image: url(img/proj3-hover.png);
+	}
+	.proj-desc{
+		width: 60%;
+	}
+	.h3{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+	}
+	p{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 160%;
+	}
+	.proj-tag{
+		padding: 4px 8px;
+		background: #D2F1EA;
+		border-radius: 23232px;
+	}
+	.arq{
+		background: #D2F1EA;
+		width: 88px;
+	}
+	.cen{
+		background:#F1E7D2; 
+		width:85px;
+	}
+</style>
