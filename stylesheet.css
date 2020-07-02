@@ -5,7 +5,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	color: #313131;
 	margin: auto;
-	width: 80%;
+	max-width: 1200px;
 	line-height: 160%;
 	background-color: #FAF8F7;
 }
@@ -25,40 +25,45 @@ body{
 		justify-content: space-between;
 	}
 	.proj{		
-		width: 45%;
+		width: 30%;
 	}
 	.proj-img{
 		width: 100%;
-		height: 40vh;		
-		background-size: cover;
+		height: 30vh;		
+		background-size: contain;
 		background-position: center;
 		background-repeat: no-repeat;
+		filter:gray;
+		-webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      	-webkit-transition: all .8s ease-in-out;
+
 	}
 	.proj-img:hover{
+		filter:none;
+		-webkit-filter: none;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
 	.proj1{
-		background-image: url(img/proj1.png);
+		background-image: url(img/parqueaquatico1.png);
 	}
-	.proj1:hover{
-		background-image: url(img/proj1-hover.png);
-	}
+
 	.proj2{
-		background-image: url(img/proj2.png);
-	}
-	.proj2:hover{
-		background-image: url(img/proj2-hover.png);
+		background-image: url(img/ruperspectiva1.png);
 	}
 	.proj3{
-		background-image: url(img/proj3.png);
+		background-image: url(img/todechico01.png);
 	}
-	.proj3:hover{
-		background-image: url(img/proj3-hover.png);
+	.proj4{
+		background-image: url(img/islacapa.png);
 	}
-	.proj-desc{
-		width: 60%;
+	.proj5{
+		background-image: url(img/modeloscapa1.png);
 	}
+	.proj6{
+		background-image: url(img/dipuacapa.png);
+	}
+	
 	.h3{
 		font-family: Montserrat;
 		font-style: normal;
@@ -84,5 +89,36 @@ body{
 	.cen{
 		background:#F1E7D2; 
 		width:85px;
+	}
+	h1{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 42px;
+	}
+	.sobre{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 120px;
+	}
+	.sobre-img{
+		width: 35%;
+	}
+	.sobr-texts{
+		width: 45%;
+	}
+	.email{
+		font-size: 22px;
+	}
+	.rodape{
+		margin-bottom: 20px;
+	}
+	.imgs-proj{
+		margin-top: 90px;
+		text-align: center;
+	}
+	.img-proj{
+		margin-bottom: 60px;
 	}
 </style>
